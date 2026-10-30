@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talasbank Online — Internet Banking</title>
+<meta name="description" content="Talasbank Online: internet banking for clients of Talasbank (Bank of Talas).">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Talasbank Online">
+<meta property="og:url" content="https://ib.talasbank.net/">
+<meta property="og:title" content="Talasbank Online — Internet Banking">
+<meta property="og:description" content="Internet banking for clients of Talasbank (Bank of Talas).">
+<meta property="og:image" content="https://ib.talasbank.net/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#123E7C">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="ib.css">
+</head>
+<body>
+<div id="top"><img src="img/talasbank-logo-white.svg" alt="Talasbank" height="36"><span>Talasbank Online</span>
+<div class="lang"><a href="#" data-l="en">ENG</a> | <a href="#" data-l="ru">РУС</a></div></div>
+<div id="browser" class="bar">Your browser is not supported. For correct work of the system use Internet Explorer 8.0 or higher. <a href="#" id="bclose">Continue anyway</a></div>
+<div id="box">
+  <div class="hd" data-t="h">Login to the system</div>
+  <div id="msg"></div>
+  <form id="login" autocomplete="off" novalidate>
+    <div id="s1">
+      <label><span data-t="lLogin">Login</span><input type="text" id="u" maxlength="20" autocomplete="off" spellcheck="false"></label>
+      <label><span data-t="lPass">Password</span><input type="password" id="p" maxlength="20" autocomplete="off"></label>
+      <div class="vk"><a href="#" id="vkt" data-t="vk">Virtual keyboard</a></div>
+      <div id="vkb" class="kb"></div>
+      <label class="cap"><span data-t="lCap">Code from the picture</span><canvas id="capc" width="96" height="30"></canvas><a href="#" id="capr" title="Another picture">↻</a><input type="text" id="cap" maxlength="5" autocomplete="off"></label>
+    </div>
+    <div id="s2" style="display:none">
+      <p data-t="smsSent">A one-time code has been sent by SMS to the phone number registered at your branch:</p>
+      <p class="ph" id="ph"></p>
+      <label><span data-t="lSms">Code from SMS</span><input type="text" id="sms" maxlength="6" autocomplete="off" inputmode="numeric"></label>
+    </div>
+    <button type="submit" id="go" data-t="enter">Enter</button>
+  </form>
+  <div id="wait" style="display:none"><div class="spin"></div><span data-t="wait">Connecting to the server…</span></div>
+  <div class="links"><a href="help.html#connect" data-t="connect">How to connect</a> · <a href="help.html#forgot" data-t="forgot">Forgot your password?</a> · <a href="help.html#demo" data-t="demo">Demo version</a> · <a href="help.html" data-t="help">Help</a></div>
+</div>
+<div id="sec"><b data-t="secH">Safety rules</b><br><span data-t="sec">Talasbank never asks for your password or the SMS code by telephone, SMS, e-mail or Tulpar. Check that the address in your browser is ib.talasbank.net. Do not enter the system from computers in internet cafés.</span></div>
+<div id="foot">© 1993–2026 Talasbank (Bank of Talas). Licence of the Bank of Irad No. B-001 · <a href="https://talasbank.net/">talasbank.net</a> · Information service 1993<br>
+Talasbank Online v2.4.11 (build 3318) · Scheduled maintenance every Sunday 01:00–05:00 · <span id="srv">ib-node-2</span></div>
+<script src="ib.js"></script>
+</body>
+</html>
