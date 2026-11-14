@@ -15,7 +15,7 @@
       blockedUntil: "Access will remain blocked until", maint: "Talasbank Online is closed for scheduled maintenance until 05:00 Irad Time.", smsEmpty: "Enter the code from SMS.",
       h: "Login to the system", lLogin: "Login", lPass: "Password", lCap: "Code from the picture", lSms: "Code from SMS", enter: "Enter", vk: "Virtual keyboard",
       wait: "Connecting to the server…", smsSent: "A one-time code has been sent by SMS to the phone number registered at your branch:", connect: "How to connect",
-      forgot: "Forgot your password?", demo: "Demo version", help: "Help", notices: "Notices", secL: "Security warning", tar: "Tariffs and limits", mnt: "Maintenance", more: "More »", secH: "Safety rules",
+      forgot: "Forgot your password?", demo: "Demo version", help: "Help", notices: "Notices", secL: "Security warning", tar: "Tariffs and limits", rulesL: "Rules of the service", mnt: "Maintenance", more: "More »", secH: "Safety rules",
       sec: "Talasbank never asks for your password or the SMS code by telephone, SMS, e-mail or Tulpar. Check that the address in your browser is ib.talasbank.net. Do not enter the system from computers in internet cafés." },
     ru: { empty: "Введите логин и пароль.", capBad: "Код с картинки введён неверно. Повторите попытку.",
       e1: "Ошибка 1046: время сеанса истекло. Войдите в систему повторно.",
@@ -26,7 +26,7 @@
       blockedUntil: "Доступ будет заблокирован до", maint: "Talasbank Online закрыт на плановые работы до 05:00 по времени Ирада.", smsEmpty: "Введите код из SMS.",
       h: "Вход в систему", lLogin: "Логин", lPass: "Пароль", lCap: "Код с картинки", lSms: "Код из SMS", enter: "Войти", vk: "Виртуальная клавиатура",
       wait: "Соединение с сервером…", smsSent: "Одноразовый код отправлен по SMS на номер телефона, указанный в вашем отделении:", connect: "Как подключиться",
-      forgot: "Забыли пароль?", demo: "Демо-версия", help: "Помощь", notices: "Объявления", secL: "Предупреждение о безопасности", tar: "Тарифы и лимиты", mnt: "Плановые работы", more: "Подробнее »", secH: "Правила безопасности",
+      forgot: "Забыли пароль?", demo: "Демо-версия", help: "Помощь", notices: "Объявления", secL: "Предупреждение о безопасности", tar: "Тарифы и лимиты", rulesL: "Правила обслуживания", mnt: "Плановые работы", more: "Подробнее »", secH: "Правила безопасности",
       sec: "Таласбанк никогда не запрашивает пароль или код из SMS по телефону, SMS, e-mail или в Тулпаре. Проверьте, что в адресной строке указано ib.talasbank.net. Не входите в систему с компьютеров интернет-кафе." } }[L];
 
   D.documentElement.lang = L;
